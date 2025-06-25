@@ -27,8 +27,6 @@ The data was split into training and testing subsets (with test size being 30%).
 ## Model Assessment
 ### Model Evaluation and Comparison 
 The optimal alpha values returned by the ridge and lasso regression models were very small (0 for lasso) suggesting that the models were behaving as linear regression models. This was further confirmed when exploring the performance of these models and comparing train and test RMSE, test MAE and R2 score for each model. The models performed very similarly suggesting that regularization in the case of this dataset does not add value to the performance of the model. As such, we anchored to the linear regression model and explored the output coefficients for the fitted model to evaluate the impact of each used car feature on its price. 
-### Limitations
-The modeled dataset had been subject 
 
 ## Findings & Recommendations 
 As our client (used car dealership) is looking to fine tune their inventory, we will first highlight used car features that were identified through the model to impact the price of a car (positively and negatively). We then accordingly, recommend few strategies to fine tune their inventory assuming they want to focus on cars that will sell at higher prices. 
